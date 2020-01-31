@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Position</title>
+    <style>
+        #sosial {
+            width: 50px;
+            height: 100px;
+            position: fixed;
+            background: pink;
+            right: 0;
+            top: 100px;
+        }
+
+        #sosial:hover {
+            color: yellow;
+        }
+
+        /* fungsi hover ini akan membuat ketika kursor di arahkan ke kontent akan berubah warna */
+
+        #box {
+            background: red;
+            width: 300px;
+            height: 300px;
+        }
+
+        #pos {
+            background: green;
+            width: 300px;
+            height: 300px;
+            top: 100px;
+            left: 200px;
+            position: relative;
+        }
+
+        #pos2 {
+            width: 50px;
+            height: 50px;
+            background: yellow;
+            position: absolute;
+            /* buttom: -25px; */
+            right: 20px;
+        }
+
+        /* #pr.h1:hover {
+            color: red;
+            float: inline-start;
+        } */
+
+        #pr.p:hover {
+            color: green;
+        }
+
+        /* p:hover {
+            color: red;
+        } */
+    </style>
+</head>
+
+<body>
+    <p>cek satu</p>
+    <div id="sosial">
+        <p>fixed</p>
+    </div>
+    <div id="box">
+        <box id="box2"></box>
+    </div>
+    <div id="pos">
+        <box id="pos2"></box>
+    </div>
+
+    <div id="pr">
+        <p>Jika kursor di arahkan kesini maka warnanya berubah</p>
+        <h1>Provinsi Indonesia</h1>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            width: 960px;
+            margin: 0 auto;
+            /* agar wrapper tetap berada di tengah */
+            background: darkblue;
+        }
+
+        #header {
+            width: 100%;
+            height: 50px;
+            background: orange;
+        }
+
+        #content {
+            padding: 20px;
+            background: green;
+            margin-bottom: 10px;
+            /* margin-right: 10px; */
+            /* margin-top: 10px; */
+            /* overflow: hidden; */
+            /* sama dengan atribut style ="clear:both" */
+        }
+
+        #artikel {
+            width: 600px;
+            height: 700px;
+            float: left;
+            background: orange;
+        }
+
+        #sidebar {
+            width: 300px;
+            height: 200px;
+            float: right;
+            background: orange;
+        }
+
+        #footer {
+            width: 100%;
+            height: 50px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <p>div dengan id="wrapper"</p>
+        <div id="header"></div>
+        <p>div dengan id="header"</p>
+        <div id="content">
+            <p>div dengan id="content"</p>
+            <div id="artikel">
+                <p>div dengan id="content", child id="content"</p>
+            </div>
+            <div id="sidebar">
+                <p>div dengan id="sidebar", child id="contetn"</p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="footer">
+            <p>div dengan id="footer"</p>
+        </div>
+    </div>
+</body>
+
+</html>

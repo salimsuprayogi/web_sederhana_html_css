@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Halaman Tabel</title>
+</head>
+
+<body>
+    <h1>Daftar Table</h1>
+    <h2>Daftar Nama dan Alamat</h2>
+    <table border="1">
+        <tr>
+            <td>No</td>
+            <!--kolom 1-->
+            <td>Nama</td>
+            <!--kolom 2-->
+            <td>Alamat</td>
+            <!--kolom 3-->
+        </tr>
+        <!--Baris ke-1-->
+        <tr>
+            <td>1</td>
+            <!--kolom 1-->
+            <td>Brian</td>
+            <!--kolom 2-->
+            <td>Jakarta</td>
+            <!--kolom 3-->
+        </tr>
+        <!--Baris ke-2-->
+        <tr>
+            <td>2</td>
+            <!--kolom 1-->
+            <td>Ujang</td>
+            <!--kolom 2-->
+            <td>Bandung</td>
+            <!--kolom 3-->
+        </tr>
+        <!--Baris ke-3-->
+        <tr>
+            <td>3</td>
+            <!--kolom 1-->
+            <td>Putri</td>
+            <!--kolom 2-->
+            <td>Jogja</td>
+            <!--kolom 3-->
+        </tr>
+        <!--Baris ke-4-->
+    </table>
+    <!--Tabel Data-->
+
+    <h2>Daftar Nama dan Jenis Kelamin</h2>
+    <table border="1">
+        <tr>
+            <td rowspan="2">No</td>
+            <!--Gabungkan 2 baris-->
+            <td colspan="2">Jenis Kelamin</td>
+            <!--Gabungkan 2 kolom-->
+            <td rowspan="2">Nama</td>
+        </tr>
+        <!--Baris 1 dan 2 kolom ke - 1 di gabungkan untuk [ no ] dan 
+            Baris 1 dan 2 kolom ke - 4 di gabungkan untuk [ nama ]
+            [ jenis kelamin ] tetap tidak berubah-->
+        <tr>
+            <td>L</td>
+            <!--kolom ke-2-->
+            <td>P</td>
+            <!--kolom ke-3-->
+        </tr>
+        <!--Baris ke-2-->
+        <tr>
+            <td>1</td>
+            <!--kolom ke-1-->
+            <td>L</td>
+            <!--kolom ke-2-->
+            <td></td>
+            <!--kolom ke-3-->
+            <td>Brian</td>
+            <!--kolom ke-4-->
+        </tr>
+        <!--Baris ke-3-->
+        <tr>
+            <td>2</td>
+            <!--kolom ke-1-->
+            <td>L</td>
+            <!--kolom ke-2-->
+            <td></td>
+            <!--kolom ke-3-->
+            <td>Ujang</td>
+            <!--kolom ke-4-->
+        </tr>
+        <!--Baris ke-4-->
+        <tr>
+            <td>3</td>
+            <!--kolom ke-1-->
+            <td></td>
+            <!--kolom ke-2-->
+            <td>P</td>
+            <!--kolom ke-3-->
+            <td>Putri</td>
+            <!--kolom ke-4-->
+        </tr>
+        <!--Baris ke-5-->
+    </table>
+
+    <h2>Daftar Air Mineral</h2>
+    <table border="1">
+        <tr>
+            <td rowspan="2">No</td>
+            <!--baris 1 dan 2di kolom 1 di gabung-->
+            <td rowspan="2">Nama</td>
+            <!--baris 1 dan 2 di kolom 2 di gabungkan-->
+            <td colspan="3">Agent</td>
+            <!--baris 1 kolom 3,4,5 di gabungkan-->
+        </tr>
+        <!--baris ke-1-->
+        <tr>
+            <td>Andi</td>
+            <!--kolom ke -3
+            kolom 1, 2 sudah digabung-->
+            <td>Budi</td>
+            <!--kolom ke-4-->
+            <td>Agus</td>
+            <!--kolom ke-5-->
+        </tr>
+        <!--baris ke-2-->
+        <td>1</td>
+        <!--kolom ke-1-->
+        <td>Aqua</td>
+        <!--kolom ke-2-->
+        <td>200</td>
+        <!--kolom ke-3-->
+        <td>300</td>
+        <!--kolom ke-4-->
+        <td>250</td>
+        <!--kolom ke-5-->
+        </tr>
+        <!--baris ke-3-->
+        <tr>
+            <td>2</td>
+            <!--kolom ke-1-->
+            <td>Ades</td>
+            <!--kolom ke-2-->
+            <td>300</td>
+            <!--kolom ke-3-->
+            <td>250</td>
+            <!--kolom ke-4-->
+            <td>200</td>
+            <!--kolom ke-5-->
+        </tr>
+        <!--baris ke-4-->
+        <tr>
+            <td>3</td>
+            <!--kolom ke-1-->
+            <td>Le Mineral</td>
+            <!--kolom ke-2-->
+            <td>250</td>
+            <!--kolom ke-3-->
+            <td>200</td>
+            <!--kolom ke-4-->
+            <td>300</td>
+            <!--kolom ke-5-->
+        </tr>
+        <!--baris ke-5-->
+    </table>
+
+    <h2>User Journey</h2>
+    <table border="1">
+        <tr>
+            <td rowspan="3">No</td>
+            <!--baris 1,2,3 kolom 1 digabungkan-->
+            <td rowspan="3">Script No</td>
+            <!--baris 1,2,3 kolom 2 digabungkan-->
+            <td rowspan="3">Parent</td>
+            <!--baris 1,2,3 kolom 3 digabungkan-->
+            <td rowspan="3">Scenario</td>
+            <!--baris 1,2,3 kolom 4 digabungkan-->
+            <td rowspan="2">Expected Result (Development)</td>
+            <!--baris 1 dan 2 di gabungkan di kolom 5-->
+            <td rowspan="2">Actual Result (Quality Assurance)</td>
+            <!--baris 1 dan 2 di gabungkan di kolom 6-->
+            <td colspan="2">Status</td>
+            <!--baris ke 1 kolom ke 7 dan 8 di gabungkan-->
+            <td colspan="2">Status</td>
+            <!--baris ke 1 kolom ke 9 dan 10 di gabungkan-->
+            <td rowspan="3">Comment</td>
+            <!--baris 1,2,3 di gabungkan di kolom 11-->
+        </tr>
+        <!--baris ke-1-->
+        <tr>
+            <td colspan="2">Chat Development</td>
+            <!--kolom 7 dan 8 di gabungkan-->
+            <td colspan="2">Chat QA</td>
+            <!--kolom 9 dan 10 di gabungkan-->
+        </tr>
+        <!--baris ke-2-->
+        <tr>
+            <td>Chat</td>
+            <!--kolom ke 5-->
+            <td>Chat</td>
+            <!--kolom ke 6-->
+            <td>Pass</td>
+            <!--kolom ke 7-->
+            <td>Fail</td>
+            <!--kolom ke 8-->
+            <td>Pass</td>
+            <!--kolom ke 9-->
+            <td>Fail</td>
+            <!--kolom ke 10-->
+        </tr>
+        <!--baris ke-3-->
+        <tr>
+            <td>I</td>
+            <!--baris ke-4 kolom 1-->
+            <td>1</td>
+            <!--kolom ke-2-->
+            <td>Root</td>
+            <!--kolom ke-3-->
+            <td>Greeting</td>
+            <!--kolom ke-4-->
+            <td>Selamat Datang Kembali Saudara Nur, Terima Kasih Sudah Mengkontak Palang Merah Indonesia.</td>
+            <!--kolom ke-5-->
+            <td>Terima Kasih Sudah Mengkontak Palang Merah Indonesia.</td>
+            <!--kolom ke-6-->
+            <td>Pass</td>
+            <!--kolom ke-7-->
+            <td></td>
+            <!--kolom ke-8-->
+            <td></td>
+            <!--kolom ke-9-->
+            <td>Fail</td>
+            <!--kolom ke-10-->
+            <td>Greeting Kurang tepat</td>
+            <!--kolom ke-11-->
+        </tr>
+        <!--baris ke-4-->
+        <tr>
+            <td></td>
+            <!--kolom ke-1-->
+            <td>2</td>
+            <!--kolom ke-2-->
+            <td>Root</td>
+            <!--kolom ke-3-->
+            <td>Menu</td>
+            <!--kolom ke-4-->
+            <td>
+                <p>Silahkan pilih menu di bawah ini :</p>
+                <ol>
+                    <li>PMI</li>
+                    <!--1-->
+                    <li>About PMI</li>
+                    <!--2-->
+                    <li>FAQ</li>
+                    <!--3-->
+                </ol>
+                <!--orderlist dengan angka 1,2,3-->
+            </td>
+            <!--kolom ke-5-->
+            <td>
+                <p>Silahkan pilih menu di bawah ini :</p>
+                <ol>
+                    <li>PMI</li>
+                    <!--1-->
+                    <li>About PMI</li>
+                    <!--2-->
+                    <li>FAQ</li>
+                    <!--3-->
+                </ol>
+                <!--orderlist dengan angka 1,2,3-->
+            </td>
+            <!--kolom ke-6-->
+            <td>Pass</td>
+            <!--kolom ke-7-->
+            <td></td>
+            <!--kolom ke-8-->
+            <td>Pass</td>
+            <!--kolom ke-9-->
+            <td></td>
+            <!--kolom ke-10-->
+            <td>Response Sesuai</td>
+            <!--kolom ke-11-->
+        </tr>
+        <!--baris ke-5-->
+        <tr>
+            <td></td>
+            <!--kolom ke-1-->
+            <td>3</td>
+            <!--kolom ke-2-->
+            <td>2</td>
+            <!--kolom ke-3-->
+            <td>1. PMI</td>
+            <!--kolom ke-4-->
+            <td>
+                <p>Silahkan pilih layanan dari PMI</p>
+                <ul>
+                    <li>Layanan Kesehatan</li>
+                    <!--bulat kecil 1-->
+                    <li>Layanan Donor Darah</li>
+                    <!--bulat kecil 2-->
+                </ul>
+                <!--unorderlist mneggunakan bulat keci-->
+            </td>
+            <!--kolom ke-5-->
+            <td>
+                <p>Silahkan pilih: </p>
+                <ul>
+                    <li>Layanan Bantuan</li>
+                    <!--bulat kecil 1-->
+                    <li>Roti Bakar</li>
+                    <!--bulat kecil 2-->
+                </ul>
+                <!--unorderlist mneggunakan bulat keci-->
+            </td>
+            <!--kolom ke-6-->
+            <td>Pass</td>
+            <!--kolom ke-7-->
+            <td></td>
+            <!--kolom ke-8-->
+            <td></td>
+            <!--kolom ke-9-->
+            <td>Pass</td>
+            <!--kolom ke-10-->
+            <td>Response Berbeda</td>
+            <!--kolom ke-11-->
+        </tr>
+        <!--baris ke-6-->
+    </table>
+    <br /><a href="3_latihan.html">Kembali ke halaman utama</a>
+</body>
+
+</html>

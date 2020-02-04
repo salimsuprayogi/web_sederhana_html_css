@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="in">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="formulir.hmtl" method="get">
+        nama : <input type="text" name="nama" value="nama kamu" />
+        <br />
+
+        password : <input type="password" name="password" value="" />
+        <br />
+
+        jenis kelamin :
+        <input type="radio" name="jenis_kelamin" value="laki-laki" checked />laki-laki
+        <input type="radio" name="jenis_kelamin" value="perempuan" />perempuan
+        <br />
+
+        hobi:
+        <input type="checkbox" name="hobi_baca" />membaca buku
+        <input type="checkbox" name="hobi_nulis" checked />menulis
+        <input type="checkbox" name="hobi_mancing" />memancing
+        <br />
+
+        asal kota :
+        <select name="asal_kota">
+            <option value="kota jakarta">jakarta</option>
+            <option value="bandung">bandung</option>
+            <option value="kota semarang">semarang</option>
+            <option value="kota yogyakarta" selected>yogyakarta</option>
+        </select>
+        <br />
+
+        komentar anda :
+        <textarea name="komentar" cols="30" rows="3">Silahkan katakan isi hati anda !</textarea>
+        <br />
+
+        <input type="submit" value="mulai proses">
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="in">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+
+<body>
+    <form action="formulir.html">
+        FORMULIR PENDAFTARAN MAHASISWA BARU
+        <br />
+        Tahun Akademik 2019/2020
+        <br />
+        No. Pendaftaran :
+        <input type="text" name="no_pendaftaran" />
+        <br />
+        Program Studi yang di pilih :
+        <select name="program_studi">
+            <option value="pilih_studi" selected>Pilih</option>
+            <option value="agama_islam">Agama Islam</option>
+            <option value="kimia">Kimia</option>
+            <option value="fisika">Fisika</option>
+            <option value="komputer">Komputer</option>
+        </select>
+        <br />
+        Nama Siswa :
+        <input type="text" name="nama_siswa" />
+        <br />
+        Jenis Kelamin :
+        <!-- <select name="jenis_kelamin">
+            <option value="pilih_kelamin" selected>Pilih</option>
+            <option value="laki-laki">Laki-Laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select> -->
+        <input type="radio" name="jenis_kelamin" value="laki-laki" checked />Laki-Laki
+        <input type="radio" name="jenis_kelamin" value="perempuan" />Perempuan
+        <br />
+        Tempat Lahir :
+        <input type="text" name="tempat_lahir" />
+        <br />
+        Agama :
+        <input type="text" name="agama" />
+        <br />
+        Alamat Lengkap :
+        <input type="text" name="alamat_lengkap" />
+        <br />
+        No. Telpon :
+        <input type="text" name="no_telpon" />
+        <br />
+        E-mail :
+        <input type="text" name="email" />
+        <br />
+        <input type="submit" value="Lanjutkan">
+        <input type="submit" value="Kembali">
+    </form>
+    <!-- 
+    Untuk tag <i></i> untuk bahasa asing
+    sedangkan <em></em> untuk menekankan sesuatu
+    
+    Untuk tag <b></b> berupa huruf tebal
+    untuk tag <strong></strong> juga huruf tebal tapi lebih ditekankan pengertiannya
+
+    Untuk tag <u></u> tidak ada fungsi tertntu, 
+    sedangkan <ins></ins> jika ada sesuatu baru
+    -->
+</body>
+
+</html>
